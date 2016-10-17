@@ -1,0 +1,14 @@
+<div class="container">
+
+    <div class="side-bar" ng-controller="SidebarController">
+        <div class="expand"  ng-include="'../src/assets/images/expand.svg'"></div>
+        <div class="logo" ng-class="{'active': isActive}" ng-click="activeButton()" ng-include="'../src/assets/images/lorwyn.svg'"></div>
+
+        <div class="icon-bar">
+            <div class="life-icon" ng-include="'../src/assets/images/heart.svg'"></div>
+            <div class=="dice-icon" ng-include="'../src/assets/images/dice.svg'"></div>
+            <div class="coin-icon" ng-include="'../src/assets/images/coin.svg'"></div>
+            <div class="card-icon" ng-include="'../src/assets/images/card.svg'"></div>
+        </div>
+    </div>
+</div>

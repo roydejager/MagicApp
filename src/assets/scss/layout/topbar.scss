@@ -1,0 +1,27 @@
+.top-bar {
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+  width: 100%;
+
+  position: absolute;
+  top:0;
+  height: 50px;
+}
+
+.restart-icon svg {
+  margin-right: 20px;
+  margin-top: 10px;
+  float: right;
+  fill: #575062;
+}
+
+
+.settings svg {
+  margin-right: 20px;
+  margin-top: 10px;
+  float: right;
+  width: 30px;
+  height: 30px;
+  fill: #575062;
+}
+
