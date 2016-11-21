@@ -2,8 +2,7 @@
   background-color: white;
   border-bottom: 1px solid lightgrey;
   width: 100%;
-
-  position: absolute;
+  position: fixed;
   top:0;
   height: 50px;
 }
@@ -12,16 +11,24 @@
   margin-right: 20px;
   margin-top: 10px;
   float: right;
-  fill: #575062;
+  cursor: pointer;
+  fill: #17141f;
+  &:hover {
+    fill: #575062;
+  }
 }
 
 
 .settings svg {
+  cursor: pointer;
   margin-right: 20px;
   margin-top: 10px;
   float: right;
   width: 30px;
   height: 30px;
-  fill: #575062;
+  fill: #17141f;
+  &:hover {
+    fill: #575062;
+  }
 }
 

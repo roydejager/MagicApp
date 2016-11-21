@@ -17,7 +17,7 @@ gulp.task('sass', function () {
 
 
 gulp.task('browserify', function () {
-    return browserify({entries: ['./src/js/entry.js']})
+    return browserify({entries: ['./src/assets/js/entry.js']})
         .bundle()
         .pipe(source('bundle.js'))
         .pipe(gulp.dest('dist'));
@@ -49,7 +49,7 @@ gulp.task('connect', function() {
 
 gulp.task('watch', ['connect'], function () {
     gulp.watch('src/assets/scss/**/*.scss', ['sass']);
-    gulp.watch('src/app/js/**/*.js', ['browserify']);
+    gulp.watch('./src/assets/js/**/*.js', ['browserify']);
     gulp.watch('src/app/images/**/*.+(jpg|png)', ['image']);
 });
 

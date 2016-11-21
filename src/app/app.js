@@ -3,9 +3,8 @@
 
     app.config(function ($routeProvider) {
         $routeProvider
-            .when("/user/:username", {
-                templateUrl: "../src/app/components/user/user.html",
-                controller: "UserController"
+            .when("/test", {
+                templateUrl: "../src/app/components/test/test.html"
             })
             .when('/repo/:username/:reponame', {
                 templateUrl: "../src/app/components/repo/repo.html",

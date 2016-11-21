@@ -1,14 +1,12 @@
 $site-width: 1920px;
-$site-left: 0px;
-$site-right: 0px;
+$site-left: 200px;
+$site-right: 20px;
 
 .container {
-
+  padding-top: 60px;
   max-width: $site-width;
   padding-left: $site-left;
   padding-right: $site-right;
-  //margin: auto;
-
 }
 
 body {
